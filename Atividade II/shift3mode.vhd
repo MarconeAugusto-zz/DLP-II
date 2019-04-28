@@ -7,7 +7,7 @@ entity shift3mode is
    port(
       a: in std_logic_vector(63 downto 0);
       lar: in std_logic_vector(1 downto 0);
-      amt: in std_logic_vector(6 downto 0);
+      amt: in std_logic_vector(5 downto 0);
       y: out std_logic_vector(63 downto 0)
    );
 end shift3mode ;
